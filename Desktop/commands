@@ -1,0 +1,60 @@
+Please fine below instructions to send commands through MQTT
+
+- Go to URL :http://192.168.4.19:8164/mqtt/websocket/
+
+- It will open web-socket page where replace host as 192.168.4.19 and topic with VITA/Scan_Status
+Note : Please give proper name in topic field if we give wrong name it will create another topic in MQTT server
+
+- It will open chat room where we can push commands
+
+ Command for init:
+
+{"Cmd":"VITA_DM_Init","DeviceID":"B8:27:EB:39:1A:2F","DM_SL":{"SubModule : CM":{},"SubModule : DsM":{"BT_Params":["Name","DeviceID","Class_Name"],"WIFI_Params":["Name","DeviceID","Signal","Frequency"]},"SubModule : DeM":{},"RUN_IP":"192.168.4.19:8856"}}
+string : {"Cmd":"VITA_DM_Init","DeviceID":"B8:27:EB:39:1A:2F","DM_SL":{"SubModule : CM":{},"SubModule : DsM":{"BT_Params":["Name","DeviceID","Class_Name"],"WIFI_Params":["Name","DeviceID","Signal","Frequency"]},"SubModule : DeM":{},"RUN_IP":"192.168.4.19:8856"}}
+
+Command for discover:
+
+{"Cmd":"Discover","ScanType":"Manual","DeviceType":"iotdevice"}
+		INIT:
+
+{"Cmd":"VITA_DM_Init","DeviceID":"B8:27:EB:39:1A:2F","DM_SL":{"SubModule : CM":{},"SubModule : DsM":{"BT_Params":["Name","DeviceID","Class_Name"],"WIFI_Params":["Name","DeviceID","Signal","Frequency"]},"SubModule : DeM":{},"RUN_IP":"192.168.4.19:8856"}}
+string : {"Cmd":"VITA_DM_Init","DeviceID":"B8:27:EB:39:1A:2F","DM_SL":{"SubModule : CM":{},"SubModule : DsM":{"BT_Params":["Name","DeviceID","Class_Name"],"WIFI_Params":["Name","DeviceID","Signal","Frequency"]},"SubModule : DeM":{},"RUN_IP":"192.168.4.19:8856"}}
+
+
+		DISCOVER:
+
+ {"Cmd":"Discover","ScanType":"Manual","DeviceType":"iotdevice"}
+
+
+		GET:
+
+{"Cmd":"iotvity_Get","ScanType":"Manual","Handle":"0x7f0dbc000f60"}
+
+{"Cmd":"iotvity_Get","ScanType":"Manual","Handle":"0x7fe284000920"}
+
+		PUT :
+{"Cmd":"iotvity_Put","Data":{ "Accelerometer Config":"1"},"Handle":"0x7f65fc000c40"};
+
+
+{"Cmd":"iotvity_Put","Data":{"power":434},"Handle":"0x7f086c000920"};
+
+
+		Observe :
+
+{"Cmd":"iotvity_Observe","ScanType":"Manual","Handle":"0x7ff990000e50"};
+
+
+		PATH:
+
+export LD_LIBRARY_PATH=VITA_DM/Executables/lib/:VITA_DM/DM_IoTvity/:VITA_DM/DM_IoTvity/iotivity-1.2.1/out/linux/x86_64/release
+
+
+if(duplicateData == NULL)
+        {
+            strcpy (duplicateData,ucdata);
+        }
+        else if(strcmp (duplicateData,ucdata) == 0)
+        {
+            return CA_SEND_FAILED;
+        }
+        strcpy (duplicateData,ucdata);

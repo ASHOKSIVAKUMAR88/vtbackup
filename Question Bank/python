@@ -1,0 +1,100 @@
+1.Move files with dIfferent extensions on desktop to one folder using Python?
+2.How will you open a file in Python?
+3.Write a Python program to search the particular word present in given String or not?
+4.Write a Python Program to replace some words with given words with in String?
+5.What is import and use of it?
+6.DIfference between Python and C, features of Python
+7.Explain Functions and dictionary of Python. Take a dictionary of 100 pairs, print keys, values, pairs
+8.What Is output of this expression dict(itertools. izip_longest('a','b') (range(100) ) )  If it Is  possible, If it Is not why .  If possible Explain
+How and Is there any data loss?.  
+9.How can we read the data from csv file in Python
+10.List contain [1,13,7,5,9], find which values have the addition 14 and find  index no of that values
+11.Write a Python program to print How many zeros and one's in a file , the file contians address and data, Example:data. Txt  0000:1,
+0001:2,  0003:3.
+12.Write a Python code to read a particular string and show what that string contains? Example:  Data. txt:  Filename:string, u need to
+show What filename contains. 
+13.Having list with some number of elements and try to add the elements at the starting without using attributes and loops?
+14.List containing 1's and 0's and try to find the count of 1's without travelling into the list.
+15.Why not Python why c++?
+16.What is lambda function and return?
+17.Difference between dictionary, list and tuple.
+18.What are the basic data types in Python?
+19.Explain about classes? What is the use of “self” in classes? What is the syntax of class and methods?
+20.What “yield” will do? What is the difference between yield and for loop?
+21.How to slice the string with a delimiter?
+22.What is list comprehension?  What is dictionary comprehension? Give one example on each? 
+23.What is call by value and call by reference in Python?
+24.What is filter?
+25.How to get the multiplication of all elements in the list?
+26.Explain multi­threading in Python. How threads will work in Python? How to create thread and how to give Priority to the created
+thread? Explain, CR region in Multi­threading
+27.Write a program to accept two numbers with one thread adding two numbers and other thread will substact two numbers, print the
+each thread's response in the common text file.   Should be this way:  result from addtion:     result from substraction
+28.What is generator?
+29.Write logic if for every open brace there is closed brace then return True else false,ex: f({{}{}{}}) ­True,f(}{) ­False,f({{{{}}}) ­False
+30.Write a Python program for append a string  through commond line arguments.
+31.How C libraries can be included in Python?
+32.How to define default arguments in a function?
+33.How to print last six characters in given string (Python)?
+34.How to print last six elements in lists?
+35.How remove duplicate elements in list ?
+36.What is regular expression in Python? What is the use of re?
+37.How to find the data in between two strings from a file using regular expressions?
+38.Write one Python program using functions and explain?
+39.Why we use tabbing in functions  Python?
+40.Is there any data types specification for variables in Python?
+41.Write a Python progrom define a function in it and explain?
+42.Write the function to print all the sub­directories and files in a given path. Import appropriate modules to interact with the OS.
+43.List some ways to get some Python code to run in a parallel way.
+44.Describe Python's garbage collection mechanism in brief.
+45.Write a program which takes 2 digits, X,Y as input and generates a 2­dimensional array. The element value in the i­th row and j­th
+column of the array should be i*j.Note: i=0,1.., X­1; j=0,1,¡ Y­1.
+46.given an array of integers, write a program to find the largest number possible from a concatenation of the integers in the array.  Note:
+Each number must be used exactly once.  An input array:[1,2,3,4], returns 4,3,2,1
+47.Divide a number by 3 without using +, ­, *, / or % operators. The number may be signed or unsigned. Note: Use bitwise operations only
+48.Given an array of integers, write a program to find the largest number possible from a concatenation of the integers in the array.  Note:
+Each number must be used exactly once.  An input array:[1,2,3,4], returns 4,3,2,1
+49.Divide a number by 3 without using +, ­, *, / or % operators. The number may be signed or unsigned. Note: Use bitwise operations only
+50.Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,between two numbers provided by
+user. The numbers obtained should be printed in a comma­separated sequence on a single line.
+51.Write a program which can compute the factorial of a given numbers.The results should be printed in a comma­separated sequence
+on a single line.
+52.Suppose the following input is supplied to the program: 8 Then, the output should be: 40320;With a given integral number n, write a
+program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the
+program should print the dictionary.
+53.Suppose the following input is supplied to the program: 8 Then, the output should be:1.{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8:64}
+ Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
+54.Write a program which accepts a sequence of comma­separated numbers from console and generate a list and a tuple which contains
+every number.
+55.Suppose the following input is supplied to the program:  34,67,55,33,12,98 .. Then, the output should be:  ['34', '67', '55', '33', '12', '98'] 
+('34', '67', '55', '33', '12', '98') 
+56.Define a class which has at least two methods: getString: to get a string from console input and printString: to print the string in upper
+case. Hint: Use __init__ method to construct some parameters  7
+57.Write a program which takes 2 digits, X,Y as input and generates a 2­dimensional array. The element value in the i­th row and j­th
+column of the array should be i*j. Note: i=0,1.., X­1; j=0,1,¡ Y­1.  Example  Suppose the following inputs are given to the program: 3,5
+Then, the output of the program should be: [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
+58.Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+59.Assume a 4x4 excel data as input and write a histogram chart for the same. Please assume the data missing. Emphasis Is on the
+histogram python code
+60.Write a program that returns a list that contains only the elements that are common between the lists (without duplicates).
+61.What are the different methods, Python provides for copying an object? Explain
+62.How memory is managed in Python?
+63.Explain how can you make a Python Script executable on Unix?
+64.What are the built­in type does Python provides?
+65.Using SQL create tables for 1. Open positions with entries(skills and number of positions) 2. Engineers Skill with entries ( Skill list,
+availability)
+66.Write a Python scipt to establish sql query which will query the open positions, if open, get the matching skills from engineers and if
+available present the engineers name
+67.John and Sally should be given bonus on salaries based on their sales, x%. Please write a python code using oops class, callback
+functions, registering and executing the call back to print the each salary + bonus.
+68.Explain about Socket Programming. What is Socket?
+69.Explain OSI Layers. What is TCP/IP layer? Write TCP block diagram.
+70.Write a simple HTTP Client program in Python (Example: votatytech.com)
+71.How you can transfer whatsapp from 1 device to another explain using TCP/IP?
+72.Write a Python code for creating server socket?
+73.What are dIfferent types of topologies and Explain about bus, ring, star, mesh topologies?
+74.How do you know which ports are opened in your machine.
+75.What Is Transport stream? Explain about TCP/IP and also TCP Header. Why do we have both MAC address and IP address?
+76.Differences between TCP and UDP
+77.Explain Checksum and Cyclic Redundancy Check
+78.Write in detail in Tabular format, differences between deep and shallow copies with examples

@@ -1,0 +1,113 @@
+  iscuss Linear vs Binary search algorithms
+D
+What is hash search? Compare it to linear search. Which is more efficient?
+Questions
+  rite program on reversing a singly linked list
+W
+Write a C program to sort a singly linked list
+Which is more efficient SLL/DLL? 
+6   rite a program for traverse doubly link­lIst and sort the data and explain the approach? Hints: In case of input data being supplied to the
+W
+question, it should be assumed to be a console input.
+ 
+7
+8
+9
+10   here are two Singly Linked Lists with length m and n respectively; and they are intersecting each other. Write a piece of code to find node
+T
+of intersection.
+Given a pointer to node in a Doubly Linked List. Write a piece of code to delete the node.
+Given a stack, find an element in the middle position of the stack. Optimize for space.
+Implement stack using queue. Also, implement queue using stack.
+  1
+1
+12   ow many type of sortings are there and which is the best one and its complexity. Which sorting algorithm is preferred? Why? Write
+H
+algorithm for best sorting techniques.
+Write a program for traverse doubly link­list and sort the data and Explain the approach?
+  3
+1
+14
+15
+16
+17
+18   iven a variable n, create a single linked list of n nodes that link with circular linked list of same number of n nodes such that data in circular
+G
+linked list should be multiply by 2 w. r. t single linked list of first n nodes.
+How to find a loop in singly linked list (minimum number of iterations) in optimized way? How you resolve it?
+Difference between single/double/circular linked list
+Write a program to delete a centre node in linked list.
+Write a function returning a middle node in single linked list?
+Implement the quick sort. Compare quick sort with other sorting method and explain the differences
+  9
+1
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31   hat is hashing technique? Describe in brief. 
+W
+What is hash table? (Data Structure) Please write an example hash table code using "C" and explain
+Write a application for queue with program. Also, what do you mean by priority queue ?
+Write a program to print leaf node in binary tree?
+What is BFS and DFS?
+Write a progam to insert a node in singly linked list? 
+Write a program to insert node after nth node using SLL
+Delete a node in a linked list program??
+Write linked list structure and find middle node of list
+Find if single or double linked list is circular or not
+Having list with some number of elements and try to add the elements at the starting without using attributes and loops?
+list containing 1's and 0's and try to find the count of 1's without travelling into the list?
+Write a logic for reversing doubly linked list
+Write algorithm to swap head pointers of 2 Singly Linked Lists
+ 
+47  2
+3
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+  wapping of two linked lists with out using other linked list?
+S
+Write a code for sorting the numbers using double linked list?
+What is the algorithm used to store the huge data efficiently?
+Write a program to reverse the number in singly linked list in ascending order. Write a C program to reverse a doubly linked list.
+Binary search tree (create N nodes, traversing, display)
+Sort a given linked list using changing nodes.
+Delete an element in BST.
+How to find minimum number in the list?
+Write a program for Bubble sort
+What type of memory allocation is referred for Linked lists?
+Describe what is Node in link list? And name the types of Linked lists?
+Mention what is the difference between Linear Array and Linked list?
+Mention the steps to insert data at the starting of a singly linked list?
+Mention the steps to insert data at middle of a singly linked list?
+Create a custom malloc and free function using linked lists  
+Write a function to reverse a singly linked list, where pointer to head is the function parameter and new head is the return value:
+struct node
+{
+   int data ;
+   struct node *next;
+};
+struct node * reverse_list(struct node * head) 
+{
+...
+... 
+}
